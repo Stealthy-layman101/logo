@@ -1,0 +1,129 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+
+.container{
+  font-family: Oswald;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo{
+  position: relative;
+  /* background-color: lightskyblue; */
+/*   background: radial-gradient(circle, lightskyblue 20%, deepskyblue 80%); */
+background: radial-gradient(circle, 
+rgb(120, 170, 240) 20%,  /* Darker blue */
+rgb(160, 200, 250) 50%,  /* Light blue */
+rgb(100, 150, 220) 80%   /* Darker */
+);
+  width: 10px;
+  height: 77px;
+  transform: rotate(68deg);
+  border-top-right-radius: 44%; /* Adding a slight curve at the corner */
+  border-top-left-radius: 30%;
+  border-bottom-left-radius: 20%;
+}
+
+.logo1{
+  width: 10px;
+  height: 79px;
+  position: relative;
+  /* background-color: lightskyblue; */
+  background: radial-gradient(circle, 
+  rgb(120, 170, 240) 20%,  /* Darker blue */
+  rgb(160, 200, 250) 50%,  /* Light blue */
+  rgb(100, 150, 220) 80%   /* Darker */
+  );
+  top: 22px;
+  left: 7px;
+  transform: rotate(9deg);
+  border-top-left-radius: 40%; /* Adding a slight curve at the corner */
+  border-top-right-radius: 30%;
+  border-bottom-right-radius: 20%;
+}
+
+.logo2{
+  width: 11px;
+  height: 30px;
+/*   background-color: lightskyblue; */
+background: radial-gradient(circle, 
+rgb(120, 170, 240) 20%,  /* Darker blue */
+rgb(160, 200, 250) 50%,  /* Light blue */
+rgb(100, 150, 220) 80%   /* Darker */
+);
+  position: relative;
+  top: 51px;
+  right: 19.5px;
+  transform: rotate(140deg);
+  border-top-left-radius: 50%; 
+  border-top-right-radius: 20%;
+  border-bottom-right-radius: 60%;
+  border-bottom-left-radius: 5%;
+}
+
+.logo3{
+  width: 11px;
+  height: 30px;
+ /*  background-color: lightskyblue; */
+ background: radial-gradient(circle, 
+ rgb(120, 170, 240) 20%,  /* Darker blue */
+ rgb(160, 200, 250) 50%,  /* Light blue */
+ rgb(100, 150, 220) 80%   /* Darker */
+ );
+  position: relative;
+  top: 22px;
+  right: 77px;
+  transform: rotate(120deg);
+  border-bottom-right-radius: 65%;
+  border-top-right-radius: 60%;
+  border-top-left-radius: 5%;
+}
+
+.curve {
+  position: relative;
+  width: 10px;
+  height: 10px;
+  /* background-color: lightskyblue; */
+  background: radial-gradient(circle, 
+  rgb(120, 170, 240) 20%,  /* Darker blue */
+  rgb(160, 200, 250) 50%,  /* Light blue */
+  rgb(100, 150, 220) 80%   /* Darker */
+  );
+  border-radius: 50%;
+  top: -8px;
+  left: 18px;
+  z-index: -1; /* Puts the curve behind the logos */
+}
+
+.curve2 {
+  position: relative;
+  width: 10px;
+  height: 15px;
+  /* background-color: lightskyblue; */
+  background: radial-gradient(circle, 
+  rgb(120, 170, 240) 20%,  /* Darker blue */
+  rgb(160, 200, 250) 50%,  /* Light blue */
+  rgb(100, 150, 220) 80%   /* Darker */
+  );
+  border-radius: 50%;
+  top: 59px;
+  right: 21px;
+  z-index: -1; /* Puts the curve behind the logos */
+}
+
+.text-div{
+  position: relative;
+  top: 5rem;
+  right: 5.5rem;
+}
+
+.modern{
+  font-size: 2rem;
+  font-weight: bold;
+  background: radial-gradient(circle, rgb(0, 0, 80) 20%, rgb(5, 5, 99) 80%); /* Darker gradient for the text */
+  -webkit-background-clip: text;
+  color: transparent; /* Makes the gradient visible within the text */
+}
+
